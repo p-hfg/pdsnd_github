@@ -178,7 +178,8 @@ def user_stats(df):
 
 
 def display_raw_data(df):
-    """ Displays lines of individual trips data according to the user """
+    """ Displays lines of individual trips data according to the user. It dusplays the first five lines,
+    and asks the user if he wish to see more """
 
     i = 0
     raw = input("Would you like to see individual trip data? Type 'yes' or 'no'  ").lower()
